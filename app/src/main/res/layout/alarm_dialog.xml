@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="300dp"
+        android:layout_height="352dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/selectedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="원하는 알림 시간을 시작일 기준으로 설정해주세요."
+            android:textSize="12sp"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.229" />
+
+        <Button
+            android:id="@+id/alarm_10min"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="116dp"
+            android:text="10분전"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.286"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/alarm_30min"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="116dp"
+            android:text="30분전"
+            app:layout_constraintStart_toEndOf="@+id/alarm_10min"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/alarm_1hour"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="63dp"
+            android:text="1시간전"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alarm_10min"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/alarm_1day"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="하루전"
+            app:layout_constraintStart_toEndOf="@+id/alarm_1hour"
+            app:layout_constraintTop_toBottomOf="@+id/alarm_30min" />
+
+        <Button
+            android:id="@+id/alarmConfirmBtn"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:background="@drawable/o"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.94"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.049" />
+
+        <Button
+            android:id="@+id/alarmCancelBtn"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:background="@drawable/x"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.059"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.049" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CatThemePlaner</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navi_menu_title1">캘린더</string>
+    <string name="navi_menu_title2">한 줄 일기장</string>
+    <string name="navi_menu_title3">설정</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="admob_app_id">ca-app-pub-5813878503406225~8725174505</string>
+    <string name="reward_ad_unit_id">ca-app-pub-5813878503406225/5089660751</string>
+    <string name="reward_ad_unit_id_for_test">	ca-app-pub-3940256099942544/5224354917</string>
+
+</resources>

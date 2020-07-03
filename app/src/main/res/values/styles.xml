@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!--default font 설정 -->
+        <item name="android:textViewStyle">@style/defaultTextViewFontStyle</item>
+        <item name="android:buttonStyle">@style/defaultButtonFontStyle</item>
+        <item name="android:editTextStyle">@style/defaultEditTextFontStyle</item>
+        <item name="android:radioButtonStyle">@style/defaultRadioButtonFontStyle</item>
+        <item name="android:checkboxStyle">@style/defaultCheckBoxFontStyle</item>
+
+
+
+    </style>
+    <style name="AppTheme.CustomNoActionBar" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/mainColor</item>
+        <item name="android:statusBarColor">@color/mainColor</item>
+        <item name="colorControlHighlight">@color/colorRed</item>
+
+        <!--default font 설정 -->
+        <item name="android:textViewStyle">@style/defaultTextViewFontStyle</item>
+        <item name="android:buttonStyle">@style/defaultButtonFontStyle</item>
+        <item name="android:editTextStyle">@style/defaultEditTextFontStyle</item>
+        <item name="android:radioButtonStyle">@style/defaultRadioButtonFontStyle</item>
+        <item name="android:checkboxStyle">@style/defaultCheckBoxFontStyle</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.custom" parent="Theme.AppCompat.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorControlHighlight">@color/colorBlue</item>
+
+        <!--default font 설정 -->
+        <item name="android:textViewStyle">@style/defaultTextViewFontStyle</item>
+        <item name="android:buttonStyle">@style/defaultButtonFontStyle</item>
+        <item name="android:editTextStyle">@style/defaultEditTextFontStyle</item>
+        <item name="android:radioButtonStyle">@style/defaultRadioButtonFontStyle</item>
+        <item name="android:checkboxStyle">@style/defaultCheckBoxFontStyle</item>
+    </style>
+
+
+
+
+</resources>

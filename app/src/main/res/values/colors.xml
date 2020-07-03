@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="mainColor">#2D9CCD</color>
+    <color name="colorBlack">#ff000000</color>
+    <color name="colorWhite">#ffffffff</color>
+    <color name="colorRed">#ffff0000</color>
+    <color name="colorBlue">#2D9CCD</color>
+    <color name="colorPink">#FFE19C9C</color>
+    <color name="thirdTabColor">#F4BBBB</color>
+    <color name="statusBarColor">#C6CD8888</color>
+    <color name="selectorColor">#c62828</color>
+    <color name="colorYellow">#E2EA55</color>
+    <color name="colorGreen">#FF8EE66D</color>
+    <color name="colorOrange">#FFF87C1C</color>
+    <color name="colorGray">#FF717070</color>
+</resources>

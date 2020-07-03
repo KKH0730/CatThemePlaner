@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/calendar_menu"
+            android:checked="true"
+            android:icon="@drawable/calendar"
+            android:title="캘린더"/>
+        <item
+            android:id="@+id/list_menu"
+            android:icon="@drawable/list"
+            android:title="리스트"/>
+        <item
+            android:id="@+id/todo_menu"
+            android:icon="@drawable/todo_list"
+            android:title="할 일 추가"/>
+
+        <item
+            android:id="@+id/store_menu"
+            android:icon="@drawable/profile2"
+            android:title="마이페이지"/>
+
+    </group>
+</menu>
