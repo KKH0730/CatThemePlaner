@@ -90,7 +90,7 @@ import butterknife.ButterKnife;
 
 
 public class MainActivity extends AppCompatActivity implements MenuCallback {
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "hi";
 
     private CalendarFragment calendarFragment;
     private ListFragment listFragment;
